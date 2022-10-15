@@ -1,0 +1,381 @@
+-- Script Made By Blaze!! - Blaze#7764
+-- Version 1.0
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "BlazeHub v1.0", HidePremium = false, SaveConfig = true, IntroText = "BlazeHub", ConfigFolder = "OrionTest"})
+    
+    -- Game Options
+
+    local Universal = Window:MakeTab({
+        Name = "Universal",
+        Icon = "rbxassetid://11280844349",
+        PremiumOnly = false
+    })
+
+    local Arsenal = Window:MakeTab({
+        Name = "Arsenal",
+        Icon = "rbxassetid://11280844349",
+        PremiumOnly = false
+    })
+
+    local Assassin = Window:MakeTab({
+        Name = "Assassin",
+        Icon = "rbxassetid://11280844349",
+        PremiumOnly = false
+    })
+
+    local Bad_Business = Window:MakeTab({
+        Name = "Bad Business",
+        Icon = "rbxassetid://11280844349",
+        PremiumOnly = false
+    })
+
+    local Bedwars = Window:MakeTab({
+        Name = "Bedwars",
+        Icon = "rbxassetid://11280844349",
+        PremiumOnly = false
+    })
+    
+    local Big_Paintball = Window:MakeTab({
+        Name = "Big Paintball",
+        Icon = "rbxassetid://11280844349",
+        PremiumOnly = false
+    })
+    
+    local Bloxburg = Window:MakeTab({
+        Name = "Bloxburg",
+        Icon = "rbxassetid://11280844349",
+        PremiumOnly = false
+    })
+
+    local Da_Hood = Window:MakeTab({
+        Name = "Da Hood",
+        Icon = "rbxassetid://11280844349",
+        PremiumOnly = false
+    })
+
+    local Doors = Window:MakeTab({
+        Name = "Doors",
+        Icon = "rbxassetid://11280844349",
+        PremiumOnly = false
+    })
+
+    local Fishing_Simulator = Window:MakeTab({
+        Name = "Fishing Sim",
+        Icon = "rbxassetid://11280844349",
+        PremiumOnly = false
+    })
+
+    local Hoopz = Window:MakeTab({
+        Name = "Hoopz",
+        Icon = "rbxassetid://11280844349",
+        PremiumOnly = false
+    })
+
+    local Jailbreak = Window:MakeTab({
+        Name = "Jailbreak",
+        Icon = "rbxassetid://11280844349",
+        PremiumOnly = false
+    })
+
+    local KAT = Window:MakeTab({
+        Name = "KAT",
+        Icon = "rbxassetid://11280844349",
+        PremiumOnly = false
+    })
+
+    local MM2 = Window:MakeTab({
+        Name = "MM2",
+        Icon = "rbxassetid://11280844349",
+        PremiumOnly = false
+    })
+    
+    local Pet_Sim = Window:MakeTab({
+        Name = "Pet Sim",
+        Icon = "rbxassetid://11280844349",
+        PremiumOnly = false
+    })
+
+    local Phantom_Forces = Window:MakeTab({
+        Name = "Phantom Forces",
+        Icon = "rbxassetid://11280844349",
+        PremiumOnly = false
+    })
+
+    local Prison_Life = Window:MakeTab({
+        Name = "Prison Life",
+        Icon = "rbxassetid://11280844349",
+        PremiumOnly = false
+    })
+
+    local Strucid = Window:MakeTab({
+        Name = "Strucid",
+        Icon = "rbxassetid://11280844349",
+        PremiumOnly = false
+    })
+
+    local TOH = Window:MakeTab({
+        Name = "TOH",
+        Icon = "rbxassetid://11280844349",
+        PremiumOnly = false
+    })
+
+    local Wimbleworld = Window:MakeTab({
+        Name = "Wimbleworld",
+        Icon = "rbxassetid://11280844349",
+        PremiumOnly = false
+    })
+
+    -- Buttons
+
+    Universal:AddButton({
+        Name = "Execute Script (Infinite Yield) - Personal Admin Bar",
+        Callback = function()
+                  print("button pressed")
+                  loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+          end    
+    })
+
+    Universal:AddButton({
+        Name = "Execute Script (Owl Hub) - Universal Aimbot + ESP",
+        Callback = function()
+                  print("button pressed")
+                  loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();       
+          end    
+    })
+
+    Universal:AddButton({
+        Name = "Execute Script (Eclipse Hub) - GUI With Useful Tools",
+        Callback = function()
+                  print("button pressed")
+                  loadstring(game:HttpGet(('https://raw.githubusercontent.com/BL4Z3PL4Y5/eclipsemm2/main/source'),true))()
+          end    
+    })
+
+    Universal:AddButton({
+        Name = "Execute Script (MIDI Player, Synapse Only)",
+        Callback = function()
+                  print("button pressed")
+                  loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/MidiPlayer/main/package.lua"))()
+          end    
+    })
+
+    Universal:AddButton({
+        Name = "Execute Script (Unnamed ESP)",
+        Callback = function()
+                  print("button pressed")
+                  loadstring(game:HttpGet(('https://raw.githubusercontent.com/BL4Z3PL4Y5/unnamedesp/main/source'),true))()
+          end    
+    })
+
+    Arsenal:AddButton({
+        Name = "Execute Script (Bolts Hub)",
+        Callback = function()
+                  print("button pressed")
+                  loadstring(game:HttpGet("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/Main", true))()
+          end    
+    })
+
+    Arsenal:AddButton({
+        Name = "Execute Script (Owl Hub)",
+        Callback = function()
+                  print("button pressed")
+                  loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+          end    
+    })
+
+    Assassin:AddButton({
+        Name = "Execute Script (SpritzSploit)",
+        Callback = function()
+                  print("button pressed")
+                  loadstring(game:HttpGet(('https://raw.githubusercontent.com/BL4Z3PL4Y5/assassin/main/source'),true))()
+          end    
+    })
+
+    Bad_Business:AddButton({
+        Name = "Execute Script (Parvus Hub)",
+        Callback = function()
+                  print("button pressed")
+                  loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/AlexR32/Parvus/main/Loader.lua"))()
+          end    
+    })
+
+    Bad_Business:AddButton({
+        Name = "Execute Script (Dark Hub)",
+        Callback = function()
+                  print("button pressed")
+                  loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+          end    
+    })
+
+    Bedwars:AddButton({
+        Name = "Execute Script (Vxpe)",
+        Callback = function()
+                  print("button pressed")
+                  loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+          end    
+    })
+    
+    Big_Paintball:AddButton({
+        Name = "Execute Script (Unlock All Weapons + GUI)",
+        Callback = function()
+                  print("button pressed")
+                  loadstring(game:HttpGet(('https://raw.githubusercontent.com/BL4Z3PL4Y5/bigpaintball/main/source'),true))()
+          end    
+    })
+
+    Bloxburg:AddButton({
+        Name = "Execute Script (Autofarm)",
+        Callback = function()
+                  print("button pressed")
+                  loadstring(game:HttpGet(('https://raw.githubusercontent.com/BL4Z3PL4Y5/bigpaintball/main/source'),true))()
+          end    
+    })
+
+    Da_Hood:AddButton({
+        Name = "Execute Script (Trustboy)",
+        Callback = function()
+                  print("button pressed")
+                  loadstring(game:HttpGet('https://pastebin.com/raw/XXAWmifh'))()
+          end    
+    })
+
+    Da_Hood:AddButton({
+        Name = "Execute Script (Encrypt)",
+        Callback = function()
+                  print("button pressed")
+                  loadstring(game:HttpGet("https://raw.githubusercontent.com/LPrandom/lua-projects/master/legacy/v1legacy.lua"))()
+          end    
+    })
+
+    Da_Hood:AddButton({
+        Name = "Execute Script (Faded)",
+        Callback = function()
+                  print("button pressed")
+                  loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded-Grid/main/YesEpic", true))()
+          end    
+    })
+
+    Doors:AddButton({
+        Name = "Execute Script (Vynixius)",
+        Callback = function()
+                  print("button pressed")
+                  loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua" ))()
+          end    
+    })
+
+    Fishing_Simulator:AddButton({
+        Name = "Execute Script (Reddy Hub)",
+        Callback = function()
+                  print("button pressed")
+                  loadstring(game:HttpGet('https://raw.githubusercontent.com/reddythedev/robloxthings/main/_Loader'))()
+          end    
+    })
+
+    Hoopz:AddButton({
+        Name = "Execute Script (Silent Aim, Reach And More!)",
+        Callback = function()
+                  print("button pressed")
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Hoopz444/main/HoopzOP1"))()
+          end    
+    })
+
+    Jailbreak:AddButton({
+        Name = "Execute Script (Vynixius)",
+        Callback = function()
+                  print("button pressed")
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua"))()
+          end    
+    })
+
+    KAT:AddButton({
+        Name = "Execute Script (Unfair Hub)",
+        Callback = function()
+                  print("button pressed")
+                    loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+          end    
+    })
+
+    MM2:AddButton({
+        Name = "Execute Script (Eclipse Hub)",
+        Callback = function()
+                  print("button pressed")
+                    loadstring(game:HttpGet(('https://raw.githubusercontent.com/BL4Z3PL4Y5/eclipsemm2/main/source'),true))()
+          end    
+    })
+
+    MM2:AddButton({
+        Name = "Execute Script (Silent Aim + Speed)",
+        Callback = function()
+                  print("button pressed")
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/OminousVibes-Exploit/Scripts/main/Murder%20Mystery%202.lua"))()
+          end    
+    })
+   
+    Pet_Sim:AddButton({
+        Name = "Execute Script (Wisteria)",
+        Callback = function()
+                  print("button pressed")
+                  loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptRUs/Ryans/main/Ghosthub.lua"))()
+          end    
+    })
+
+    Phantom_Forces:AddButton({
+        Name = "Execute Script (Vestra) (Sorry if the key is incorrect)",
+        Callback = function()
+                  print("button pressed")
+                  getgenv().key = "Vstra.V5_8e36047a9a0e05b8"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xandudiscord/vestra/main/loader.lua"))()
+          end    
+    })
+
+    Phantom_Forces:AddButton({
+        Name = "Execute Script (Ducksite)",
+        Callback = function()
+                  print("button pressed")
+                  loadstring(game:HttpGet("https://ducksite.xyz/ceri/main.lua"))()
+          end    
+    })
+
+    Phantom_Forces:AddButton({
+        Name = "Execute Script (No Recoil)",
+        Callback = function()
+                  print("button pressed")
+                  loadstring(game:HttpGet(('https://raw.githubusercontent.com/BL4Z3PL4Y5/phantomforcesrecoil/main/source'),true))()
+          end    
+    })
+
+    Prison_Life:AddButton({
+        Name = "Execute Script (Nexus Hub)",
+        Callback = function()
+                  print("button pressed")
+                  loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main", true))()
+          end    
+    })
+
+    Strucid:AddButton({
+        Name = "Execute Script (Unfair Hub) (Don't Use Evo)",
+        Callback = function()
+                  print("button pressed")
+                  loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+          end    
+    })
+
+    TOH:AddButton({
+        Name = "Execute Script (OP GUI)",
+        Callback = function()
+                  print("button pressed")
+                  loadstring(game:HttpGet('https://pastebin.com/raw/BbVHjH56'))()
+          end    
+    })
+
+    Wimbleworld:AddButton({
+        Name = "Execute Script (Get All UGC Items)",
+        Callback = function()
+                  print("button pressed")
+                  loadstring(game:HttpGet(('https://raw.githubusercontent.com/BL4Z3PL4Y5/wimbleworldscript/main/source'),true))()
+          end    
+    })
+
+
+    OrionLib:Init()
